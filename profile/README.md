@@ -1,4 +1,4 @@
-This project showcases an **exciting microservices-based architecture** that brings together the power of asynchronous communication, reliability, and observability. It’s a system built to **respond to user needs with speed**, **scale with ease**, and **communicate efficiently** using **Apache Kafka**—all while offering **deep insights** through observability tools like **Prometheus**, **Grafana**, and **OpenTelemetry**.
+This project demonstrates a **microservices-based system** that processes user requests, performs calculations, and communicates asynchronously using **Kafka**, while ensuring observability and reliability using patterns like the **Outbox Pattern**, and tools like **Prometheus**, **Grafana**, and **OpenTelemetry**.
 
 ---
 
