@@ -40,3 +40,5 @@ This project demonstrates a **microservices-based system** that processes user r
 * This ensures the architecture is **ready for anything**—from a few users to thousands.
 
 ---
+
+[inspiration video](https://www.youtube.com/watch?v=Ur6b1NWGbYE)
