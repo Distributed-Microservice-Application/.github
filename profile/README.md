@@ -1,4 +1,4 @@
-This project demonstrates a **microservices-based system** that processes user requests, performs calculations, and communicates asynchronously using **Kafka**, while ensuring observability and reliability using patterns like the **Outbox Pattern**, and tools like **Prometheus**, **Grafana**, and **OpenTelemetry**.
+This project demonstrates a **microservices-based system** that processes user requests, performs calculations, and communicates asynchronously using **Kafka**, while ensuring observability and reliability using patterns like the **Outbox Pattern**, and tools like **Prometheus**, and **Grafana**
 
 ---
 
@@ -31,7 +31,6 @@ This project demonstrates a **microservices-based system** that processes user r
 
 #### 📊 **Observability: Know Everything**
 
-* **OpenTelemetry** agents continuously collect **metrics and logs**, like how long messages stay in Kafka.
 * **Prometheus** acts as the **metrics timekeeper**, storing rich time-series data.
 * **Grafana** gives life to the metrics with **beautiful dashboards**, showing real-time insights and helping engineers make informed decisions.
 
@@ -39,21 +38,5 @@ This project demonstrates a **microservices-based system** that processes user r
 
 * **K6** simulates **realistic load scenarios**, helping test how the system performs under stress.
 * This ensures the architecture is **ready for anything**—from a few users to thousands.
-
----
-
-### 🧩 **Summary of Components**
-
-| 🌟 Component       | 🌍 Role                                                            |
-| ------------------ | ------------------------------------------------------------------ |
-| **Kubernetes**     | Orchestrates and scales all services effortlessly.                 |
-| **Service A**      | Accepts gRPC requests, calculates sums, and writes to outbox.      |
-| **Outbox Pattern** | Ensures **guaranteed delivery** to Kafka—no lost messages.         |
-| **Kafka**          | Powers **asynchronous, decoupled communication** between services. |
-| **Service B**      | Consumes messages, keeps an accurate running total.                |
-| **OpenTelemetry**  | Tracks system behavior with detailed metrics and logs.             |
-| **Prometheus**     | **Stores and queries** all metrics data.                           |
-| **Grafana**        | Presents metrics on **stunning, real-time dashboards**.            |
-| **K6**             | Pushes the system to its limits with **load testing**.             |
 
 ---
