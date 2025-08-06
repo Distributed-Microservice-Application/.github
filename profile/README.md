@@ -41,7 +41,8 @@ This project demonstrates a **microservices-based system** that processes user r
 
 ---
 
-![DMA](https://github.com/user-attachments/assets/d687cde6-8818-49b4-9824-db470c763e31)
+<img width="3290" height="4270" alt="DMA" src="https://github.com/user-attachments/assets/53f8e206-bd24-49ca-a825-850a449419c6" />
+
 
 ---
 
